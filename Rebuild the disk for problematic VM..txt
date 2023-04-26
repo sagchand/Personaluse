@@ -1,0 +1,9 @@
+login to ceph node
+
+(npe1)sagarc@ceph001:~$ sudo -i
+
+(npe1)root@ceph001:~# rbd ls -l volumes |grep c5badc86-5b2b-4398-bda1-f79b6e68a8f8
+(npe1)root@ceph001:~# rbd info volumes/volume-c5badc86-5b2b-4398-bda1-f79b6e68a8f8
+
+Stop the VM
+Start the Vm
